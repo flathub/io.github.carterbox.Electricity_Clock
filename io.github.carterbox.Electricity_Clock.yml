@@ -1,6 +1,6 @@
 app-id: io.github.carterbox.Electricity_Clock
 runtime: org.freedesktop.Platform
-runtime-version: "22.08"
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 command: electricity_clock
 
@@ -22,8 +22,8 @@ modules:
       - type: archive
         only-arches:
           - x86_64
-        url: https://github.com/carterbox/tofu/releases/download/2.0.0/io.github.carterbox.tofu-linux-x86_64-2.0.0.tar.gz
-        sha256: 7261bec0da012a616268df0d0c5b4fb7a025ab79b83e109bfbc4e510e51eceab
+        url: https://github.com/carterbox/tofu/releases/tag/2.0.0
+        sha256: cd9f44aef0ca1feaaf56b21c757115022bde80a16d470910f47cf25515f978e1
         x-checker-data:
           type: rotating-url
           url: https://github.com/carterbox/tofu/releases/latest
@@ -32,8 +32,8 @@ modules:
       - type: archive
         only-arches:
           - aarch64
-        url: https://github.com/carterbox/tofu/releases/download/2.0.0/io.github.carterbox.tofu-linux-arm64-2.0.0.tar.gz
-        sha256: 9c27f4bc4e01a37012f605d2918c6de01b6468029346bac99641a00a3ce60312
+        url: https://github.com/carterbox/tofu/releases/tag/2.0.0
+        sha256: f9eab58392df951f6c7a6933cfae3b8defd32482231daf92c0c93399e2c693fe
         x-checker-data:
           type: rotating-url
           url: https://github.com/carterbox/tofu/releases/latest
