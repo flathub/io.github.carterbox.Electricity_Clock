@@ -50,10 +50,11 @@
         <control>tablet</control>
     </supports>
 
-    <content_rating type="oars-1.0" />
+    <content_rating type="oars-1.0"/>
 
     <releases>
-        <release version="2.0.0" date="2023-02-02" />
+        <release version="2.1.0" date="2023-08-13"/>
+        <release version="2.0.0" date="2023-02-02"/>
     </releases>
 
     <screenshots>
