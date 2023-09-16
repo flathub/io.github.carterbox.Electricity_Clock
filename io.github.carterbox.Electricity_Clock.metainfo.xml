@@ -50,15 +50,16 @@
         <control>tablet</control>
     </supports>
 
-    <content_rating type="oars-1.0" />
+    <content_rating type="oars-1.0"/>
 
     <releases>
+        <release version="2.1.1" date="2023-09-16"/>
         <release version="2.1.0" date="2023-08-13" type="stable">
             <description>
                 <p>Adds widget to show historic energy use from Green Button Downloads.</p>
             </description>
         </release>
-        <release version="2.0.0" date="2023-02-02" />
+        <release version="2.0.0" date="2023-02-02"/>
     </releases>
 
     <screenshots>

@@ -1,6 +1,6 @@
 app-id: io.github.carterbox.Electricity_Clock
 runtime: org.freedesktop.Platform
-runtime-version: "22.08"
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 command: electricity_clock
 
@@ -22,23 +22,25 @@ modules:
       - type: archive
         only-arches:
           - x86_64
-        url: https://github.com/carterbox/tofu/releases/download/2.1.0/io.github.carterbox.tofu-linux-x86_64-2.1.0.tar.gz
-        sha256: 5a88b1c7a82397f1d744d2b60d5fc1d7cc5e126a7792a3e316037baec50c72e7
+        url: https://github.com/carterbox/tofu/releases/download/2.1.1/io.github.carterbox.tofu-linux-x86_64-2.1.1.tar.gz
+        sha256: 7a53a19f919a60598931cef7a7930c500c2ead0422750fb01599752965fe1000
         x-checker-data:
           type: json
           url: https://api.github.com/repos/carterbox/tofu/releases/latest
           version-query: .tag_name
-          url-query: .assets[] | select(.name=="io.github.carterbox.tofu-linux-x86_64-" + $version + ".tar.gz") | .browser_download_url
+          url-query: .assets[] | select(.name=="io.github.carterbox.tofu-linux-x86_64-"
+            + $version + ".tar.gz") | .browser_download_url
       - type: archive
         only-arches:
           - aarch64
-        url: https://github.com/carterbox/tofu/releases/download/2.1.0/io.github.carterbox.tofu-linux-arm64-2.1.0.tar.gz
-        sha256: 10633b038eecf9dd8e4c1a195e0e87359bcb370ca510f01eecdc047810f95882
+        url: https://github.com/carterbox/tofu/releases/download/2.1.1/io.github.carterbox.tofu-linux-arm64-2.1.1.tar.gz
+        sha256: f96af04dde253206edc1470dab569c10191f73cd1b017d7151e163458adedf08
         x-checker-data:
           type: json
           url: https://api.github.com/repos/carterbox/tofu/releases/latest
           version-query: .tag_name
-          url-query: .assets[] | select(.name=="io.github.carterbox.tofu-linux-arm64-" + $version + ".tar.gz") | .browser_download_url
+          url-query: .assets[] | select(.name=="io.github.carterbox.tofu-linux-arm64-"
+            + $version + ".tar.gz") | .browser_download_url
     build-commands:
       - mkdir -p /app/Electricity_Clock
       - mv electricity_clock /app/Electricity_Clock/electricity_clock
