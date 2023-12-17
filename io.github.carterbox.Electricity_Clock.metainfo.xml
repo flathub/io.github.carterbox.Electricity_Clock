@@ -53,6 +53,7 @@
     <content_rating type="oars-1.0"/>
 
     <releases>
+        <release version="2.2.1" date="2023-12-17"/>
         <release version="2.2.0" date="2023-09-17" type="stable">
             <description>
                 <p>Adds side-by-side of historic use and historic energy rates.</p>
