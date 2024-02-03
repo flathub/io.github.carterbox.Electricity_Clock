@@ -5,7 +5,8 @@
     <metadata_license>FSFAP</metadata_license>
     <project_license>GPL-3.0-or-later</project_license>
     <name>Electricity Clock</name>
-    <summary>A time of use monitor for electricity rates</summary>
+    <summary>Monitor electricity rates</summary>
+    <developer_name>Daniel Ching</developer_name>
 
     <description>
         <p>
@@ -53,6 +54,11 @@
     <content_rating type="oars-1.0"/>
 
     <releases>
+        <release version="2.3.0" date="2024-02-03" type="stable">
+            <description>
+                <p>Adjusts to UI to use more Material Design elements. Makes historic energy use easier to read.</p>
+            </description>
+        </release>
         <release version="2.2.1" date="2023-12-17"/>
         <release version="2.2.0" date="2023-09-17" type="stable">
             <description>
@@ -69,9 +75,24 @@
 
     <screenshots>
         <screenshot type="default">
-            <caption>The main window</caption>
-            <image>
+            <caption>Time of use display in dark mode</caption>
+            <image xml:lang="en">
                 https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-01.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>Historic energy use in dark mode</caption>
+            <image xml:lang="en">
+                https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-02.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>Time of use display in light mode</caption>
+            <image xml:lang="en">
+                https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-11.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>Historic energy use in light mode</caption>
+            <image xml:lang="en">
+                https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-12.png</image>
         </screenshot>
     </screenshots>
 
