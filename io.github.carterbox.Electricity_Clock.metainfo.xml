@@ -76,22 +76,22 @@
     <screenshots>
         <screenshot type="default">
             <caption>Time of use display in dark mode</caption>
-            <image>
+            <image xml:lang="en">
                 https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-01.png</image>
         </screenshot>
         <screenshot>
             <caption>Historic energy use in dark mode</caption>
-            <image>
+            <image xml:lang="en">
                 https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-02.png</image>
         </screenshot>
         <screenshot>
             <caption>Time of use display in light mode</caption>
-            <image>
+            <image xml:lang="en">
                 https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-11.png</image>
         </screenshot>
         <screenshot>
             <caption>Historic energy use in light mode</caption>
-            <image>
+            <image xml:lang="en">
                 https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-12.png</image>
         </screenshot>
     </screenshots>
