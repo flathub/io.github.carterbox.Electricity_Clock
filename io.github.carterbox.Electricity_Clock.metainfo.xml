@@ -5,7 +5,8 @@
     <metadata_license>FSFAP</metadata_license>
     <project_license>GPL-3.0-or-later</project_license>
     <name>Electricity Clock</name>
-    <summary>A time of use monitor for electricity rates</summary>
+    <summary>Monitor electricity rates</summary>
+    <developer_name>Daniel Ching</developer_name>
 
     <description>
         <p>
@@ -79,7 +80,7 @@
                 https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-01.png</image>
         </screenshot>
         <screenshot>
-            <caption>Historic energy use in dark mode./caption>
+            <caption>Historic energy use in dark mode.</caption>
             <image>
                 https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-02.png</image>
         </screenshot>
