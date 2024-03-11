@@ -6,7 +6,7 @@
     <project_license>GPL-3.0-or-later</project_license>
     <name>Electricity Clock</name>
     <summary>Monitor electricity rates</summary>
-    <developer_name>Daniel Ching</developer_name>
+    <developer>Daniel Ching</developer>
 
     <description>
         <p>
@@ -34,8 +34,7 @@
     <url type="homepage">https://github.com/carterbox/tofu</url>
 
     <requires>
-        <display_length compare="gt">xsmall</display_length>
-        <display_length compare="lt">xlarge</display_length>
+        <display_length compare="gt">360</display_length>
         <internet>always</internet>
     </requires>
 
@@ -54,6 +53,11 @@
     <content_rating type="oars-1.0"/>
 
     <releases>
+        <release version="2.4.0" date="2024-02-03" type="stable">
+            <description>
+                <p>Moves historic energy use controls to separate page. Highlights more energy rates.</p>
+            </description>
+        </release>
         <release version="2.3.0" date="2024-02-03" type="stable">
             <description>
                 <p>Adjusts to UI to use more Material Design elements. Makes historic energy use easier to read.</p>
@@ -74,22 +78,22 @@
     </releases>
 
     <screenshots>
-        <screenshot type="default">
+        <screenshot type="default" environment="gnome:dark">
             <caption>Time of use display in dark mode</caption>
             <image xml:lang="en">
                 https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-01.png</image>
         </screenshot>
-        <screenshot>
+        <screenshot type="source" environment="gnome:dark">
             <caption>Historic energy use in dark mode</caption>
             <image xml:lang="en">
                 https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-02.png</image>
         </screenshot>
-        <screenshot>
+        <screenshot type="source" environment="gnome">
             <caption>Time of use display in light mode</caption>
             <image xml:lang="en">
                 https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-11.png</image>
         </screenshot>
-        <screenshot>
+        <screenshot type="source" environment="gnome">
             <caption>Historic energy use in light mode</caption>
             <image xml:lang="en">
                 https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-12.png</image>
