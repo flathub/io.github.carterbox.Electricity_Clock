@@ -6,7 +6,9 @@
     <project_license>GPL-3.0-or-later</project_license>
     <name>Electricity Clock</name>
     <summary>Monitor electricity rates</summary>
-    <developer>Daniel Ching</developer>
+    <developer id="io.github.carterbox">
+        <name>Daniel Ching</name>
+    </developer>
 
     <description>
         <p>
@@ -37,11 +39,6 @@
         <display_length compare="gt">360</display_length>
         <internet>always</internet>
     </requires>
-
-    <recommends>
-        <display_length>small</display_length>
-        <display_length>medium</display_length>
-    </recommends>
 
     <supports>
         <control>pointing</control>
@@ -80,22 +77,22 @@
     <screenshots>
         <screenshot type="default" environment="gnome:dark">
             <caption>Time of use display in dark mode</caption>
-            <image xml:lang="en">
+            <image>
                 https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-01.png</image>
         </screenshot>
         <screenshot type="source" environment="gnome:dark">
             <caption>Historic energy use in dark mode</caption>
-            <image xml:lang="en">
+            <image>
                 https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-02.png</image>
         </screenshot>
         <screenshot type="source" environment="gnome">
             <caption>Time of use display in light mode</caption>
-            <image xml:lang="en">
+            <image>
                 https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-11.png</image>
         </screenshot>
         <screenshot type="source" environment="gnome">
             <caption>Historic energy use in light mode</caption>
-            <image xml:lang="en">
+            <image>
                 https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-12.png</image>
         </screenshot>
     </screenshots>
