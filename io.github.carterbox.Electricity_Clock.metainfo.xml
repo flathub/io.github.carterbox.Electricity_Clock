@@ -9,46 +9,43 @@
     <developer id="io.github.carterbox">
         <name>Daniel Ching</name>
     </developer>
-
     <description>
-        <p>
-            Displays trends, real-time, and predicted electricity rates as 24 hour clock for ComEd customers in Northern Illinois.
-        </p>
+        <p>Displays trends, real-time, and predicted electricity rates as 24 hour clock
+          for ComEd customers in Northern Illinois.</p>
     </description>
-
-    <categories>
-        <category>Clock</category>
-        <category>Economy</category>
-        <category>Electricity</category>
-        <category>Monitor</category>
-        <category>Utility</category>
-    </categories>
-
-    <keywords>
-        <keyword>time</keyword>
-        <keyword>electricity</keyword>
-        <keyword>rate</keyword>
-        <keyword>energy</keyword>
-    </keywords>
-
     <launchable type="desktop-id">io.github.carterbox.Electricity_Clock.desktop</launchable>
-
     <url type="homepage">https://github.com/carterbox/tofu</url>
-
+    <url type="bugtracker">https://github.com/carterbox/tofu/issues</url>
+    <url type="vcs-browser">https://github.com/carterbox/tofu</url>
     <requires>
         <display_length compare="gt">360</display_length>
         <internet>always</internet>
     </requires>
-
     <supports>
         <control>pointing</control>
         <control>keyboard</control>
         <control>touch</control>
         <control>tablet</control>
     </supports>
-
     <content_rating type="oars-1.0"/>
-
+    <screenshots>
+        <screenshot type="default" environment="gnome:dark">
+            <caption>Time of use display in dark mode</caption>
+            <image>https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-01.png</image>
+        </screenshot>
+        <screenshot type="source" environment="gnome:dark">
+            <caption>Historic energy use in dark mode</caption>
+            <image>https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-02.png</image>
+        </screenshot>
+        <screenshot type="source" environment="gnome">
+            <caption>Time of use display in light mode</caption>
+            <image>https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-11.png</image>
+        </screenshot>
+        <screenshot type="source" environment="gnome">
+            <caption>Historic energy use in light mode</caption>
+            <image>https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-12.png</image>
+        </screenshot>
+    </screenshots>
     <releases>
         <release version="2.4.0" date="2024-02-03" type="stable">
             <description>
@@ -73,28 +70,4 @@
         </release>
         <release version="2.0.0" date="2023-02-02"/>
     </releases>
-
-    <screenshots>
-        <screenshot type="default" environment="gnome:dark">
-            <caption>Time of use display in dark mode</caption>
-            <image>
-                https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-01.png</image>
-        </screenshot>
-        <screenshot type="source" environment="gnome:dark">
-            <caption>Historic energy use in dark mode</caption>
-            <image>
-                https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-02.png</image>
-        </screenshot>
-        <screenshot type="source" environment="gnome">
-            <caption>Time of use display in light mode</caption>
-            <image>
-                https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-11.png</image>
-        </screenshot>
-        <screenshot type="source" environment="gnome">
-            <caption>Historic energy use in light mode</caption>
-            <image>
-                https://raw.githubusercontent.com/carterbox/tofu/main/assets/screenshots/desktop-12.png</image>
-        </screenshot>
-    </screenshots>
-
 </component>
