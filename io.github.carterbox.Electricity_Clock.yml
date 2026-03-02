@@ -22,8 +22,8 @@ modules:
       - type: archive
         only-arches:
           - x86_64
-        url: https://github.com/carterbox/tofu/releases/download/2.4.0/io.github.carterbox.tofu-linux-x86_64-2.4.0.tar.gz
-        sha256: 68a74e50a5a5416c0e6bae52519bb203d68db4a57775ace1dcc0b323b3b863ab
+        url: https://github.com/carterbox/tofu/releases/download/2.4.1/io.github.carterbox.tofu-linux-x86_64-2.4.1.tar.gz
+        sha256: e10ff6615fd4d0d0bf5089386ebd3819f0a781def3fa226f926d6673bbe9dbfc
         x-checker-data:
           type: json
           url: https://api.github.com/repos/carterbox/tofu/releases/latest
