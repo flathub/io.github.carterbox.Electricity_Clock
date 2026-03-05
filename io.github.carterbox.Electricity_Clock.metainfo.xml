@@ -48,7 +48,9 @@
     </screenshots>
     <releases>
         <release version="2.4.1" date="2026-02-25">
-            <description></description>
+            <description>
+                <p>Updates dependencies to newer versions and uses newer flatpak runtime.</p>
+            </description>
         </release>
         <release version="2.4.0" date="2024-02-03" type="stable">
             <description>
