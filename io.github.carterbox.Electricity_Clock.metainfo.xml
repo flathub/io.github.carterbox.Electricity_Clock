@@ -47,6 +47,9 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2.4.1" date="2026-02-25">
+            <description></description>
+        </release>
         <release version="2.4.0" date="2024-02-03" type="stable">
             <description>
                 <p>Moves historic energy use controls to separate page. Highlights more energy rates.</p>
